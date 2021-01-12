@@ -74,9 +74,9 @@
 
 ## 3. 난수
 
-	- `rand`  : 실수형 난수 반환
-	- `randint(begin, end)` : 정수형 난수
-	- `choice` : 리스트에서 임의의 요소 하나를 반환
-	- `shuffle` : 리스트 요소 무작위 섞기
-	- `sample(리스트, 뽑을 개수)` : 리스트에서 지정 개수만큼 sample 추출
+- `rand`  : 실수형 난수 반환
+- `randint(begin, end)` : 정수형 난수
+- `choice` : 리스트에서 임의의 요소 하나를 반환
+- `shuffle` : 리스트 요소 무작위 섞기
+- `sample(리스트, 뽑을 개수)` : 리스트에서 지정 개수만큼 sample 추출
 
