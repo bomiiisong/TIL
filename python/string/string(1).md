@@ -1,8 +1,8 @@
-# Python 정복 (문자열)
+# 문자열 (1)
 
-> *개발환경 : jupyter notebook*
+> 도서 : 파이썬 정복(한빛미디어, 10장)
 >
-> 참고 : 파이썬 정복(한빛미디어, 10장)
+> *개발환경 : jupyter notebook*
 
 
 
@@ -29,30 +29,32 @@
 
  ### 1. 검색
 
-    ```python
-    s = "python programming"
-    print(len(s)) #내장함수
-    print(s.find('o')) #변수 s에서 'o'를 검색 -> 'o' 위치 return
-    print(s.rfind('o')) #변수 s에서 'o'를 뒤에서부터 검색 -> 'o' 위치 return
-    print(s.index('r')) #변수 s에서 'r'의 위치 return
-    print(s.count('n')) #변수 s에서 'n'의 개수 return
-    
-    18 #len(s)
-    4 #s.find
-    9 #s.rfind (rear find)
-    8 #s.index
-    2 #s.count
-    ```
-    
-    - 내장함수와 객체 소속의 메서드는 호출 방식이 다름
+```python
+s = "python programming"
+print(len(s)) #내장함수
+print(s.find('o')) #변수 s에서 'o'를 검색 -> 'o' 위치 return
+print(s.rfind('o')) #변수 s에서 'o'를 뒤에서부터 검색 -> 'o' 위치 return
+print(s.index('r')) #변수 s에서 'r'의 위치 return
+print(s.count('n')) #변수 s에서 'n'의 개수 return
+
+18 #len(s)
+4 #s.find
+9 #s.rfind (rear find)
+8 #s.index
+2 #s.count
+```
+
+   - 내장함수와 객체 소속의 메서드는 호출 방식이 다름
+
       - `len()` : len(변수)
+
       - `find` : 변수.find
-      
-    - `find, rfind` : 검색한 문자가 존재하지 않으면  -1 반환
+
+   - `find, rfind` : 검색한 문자가 존재하지 않으면  -1 반환
     
-    - `index` : 검색한 문자가 존재하지 않으면 예외 발생 -> 예외 처리 필요
+   - `index` : 검색한 문자가 존재하지 않으면 예외 발생 -> 예외 처리 필요
     
-    - `count` : `count('sub')` 식의 부분 문자열도 검색 가능
+   - `count` : `count('sub')` 식의 부분 문자열도 검색 가능
 
 
 ​      
