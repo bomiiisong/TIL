@@ -10,11 +10,45 @@
 
 
 
-## 2. 연산자 Method
+## 2. Static Method
+
+ - 객체 생성하지 않아도 호출 가능한 Method
+
+ - 대표 예시 : `help()` 함수
+
+ - Example
+
+   ```python
+   class Car:
+       @staticmethod # 객체가 없어도 호출 가능
+       def hello(): 
+           print("안전 운행 합시다")
+       
+       count = 0
+       
+       def __init__(self, name):
+           self.name = name
+           Car.count += 1
+           
+       @classmethod
+       def outcount(cls):
+           print(cls.count)
+   ```
+
+   ```python
+   # 실행 결과
+   Car.hello() #객체 생성 X
+   
+   >> 안전 운행 합시다.
+   ```
+
+   
+
+## 3. 연산자 Method
 
 
 
-## 3. 특수 Method
+## 4. 특수 Method
 
 | Method  | 설명 |
 | ------- | ---- |
