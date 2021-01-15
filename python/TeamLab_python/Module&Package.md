@@ -68,17 +68,17 @@
   # 가상의 game 패키지 (점프투파이썬 예시 자료)
   
   game/ # root 디렉터리
-  		__init__.py
+      __init__.py
     	sound/  #서브 디렉터리
-      		__init__.py
+          __init__.py
         	echo.py
           wav.py
       graphic/  #서브 디렉터리
-      		__init__.py
+          __init__.py
         	screen.py
           render.py
       play/  #서브 디렉터리
-      		__init.py
+          __init.py
         	run.py
           test.py
   ```
