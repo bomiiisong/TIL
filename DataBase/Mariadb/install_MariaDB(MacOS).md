@@ -51,7 +51,7 @@ $ brew services stop mariadb
 
 ### MariaDB 설치 및 실행 과정 중 오류들
 
- 	1. 기존에 설치되어 있던 `Mysql`로 인해 *Conflict error*가 발생함
+1. 기존에 설치되어 있던 `Mysql`로 인해 *Conflict error*가 발생함
      - 해결 방법 : `Mysql`을 완벽히 삭제한 후 `MariaDB`를 설치해야 한다.
 
 2. `Brew`를 이용하여 설치하면 DB 구동 및 접속 명령어가 따로 있다.
