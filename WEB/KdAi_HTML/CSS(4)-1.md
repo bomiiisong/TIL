@@ -65,7 +65,7 @@
     </style>
     ```
 
-    ![CSS_box](.\image\CSS(4)-1.PNG)
+    ![CSS_box](.\image\CSS_4.PNG)
 
 
 
