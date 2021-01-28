@@ -65,7 +65,7 @@
     </style>
     ```
 
-    ![CSS_box](/Users/spring/TIL/WEB/KdAi_HTML/img\CSS(4)-1.png)
+    ![CSS_box](.\image\CSS(4)-1.png)
 
 
 
