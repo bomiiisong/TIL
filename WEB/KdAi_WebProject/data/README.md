@@ -4,9 +4,7 @@ Web Project에 사용한 데이터 설명입니다.
 
 
 
-
-
-### accomodation_base
+### 1. accomodation_base
 
 - '여기어때' 사이트 크롤링 데이터 
 
@@ -25,9 +23,8 @@ Web Project에 사용한 데이터 설명입니다.
   
   
   
-  
 
-### accomodation_imagelink
+### 2. accomodation_imagelink
 
 - '여기어때' 사이트 크롤링 데이터
 
@@ -45,11 +42,7 @@ Web Project에 사용한 데이터 설명입니다.
 
 
 
-
-
-
-
-### accomodation_final
+### 3. accomodation_final
 
 - 숙소의 위도, 경도 컬럼 추가
 
